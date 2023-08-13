@@ -1,0 +1,502 @@
+/*common css*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,400;1,600;1,700;1,900&display=swap');
+*
+{
+    font-family: 'Nunito';
+}
+a
+{
+    text-decoration: none;
+}
+li
+{
+    list-style: none;
+}
+/*common css*/
+/*=====================navbar start=====================*/
+.navbar-brand .span1
+{
+    font-weight: 600;
+    color: rgb(0, 153, 51);
+}
+.navbar-brand .span2
+{
+    font-weight: 600;
+    color: rgb(255, 133, 51);
+}
+.navbar .collapse .navbar-nav .active, .main
+{
+    background-image: linear-gradient(to bottom left, rgb(0, 153, 51, 0.7) , rgb(255, 133, 51));
+    border-radius: 5px;
+    color: white;
+}
+.navbar .collapse .navbar-nav .nav-item, .same
+{
+    transition: all linear .2s;
+}
+.navbar .collapse .navbar-nav .nav-item:hover .same
+{
+    background-image: linear-gradient(to bottom left, rgb(0, 153, 51, 0.7) , rgb(255, 133, 51));
+    border-radius: 5px;
+    color: white;
+}
+.navbar .collapse .navbar-nav .dropdown .dropdown-menu .dropdown-item:hover
+{
+    background-image: linear-gradient(to bottom left, rgb(0, 153, 51, 0.7) , rgb(255, 133, 51));
+}
+@media only screen and (min-width: 992px)
+{
+    .navbar .collapse
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar .collapse .navbar-nav
+    {
+        margin: 0 0 0 20%;
+    }
+}
+@media only screen and (max-width: 991px)
+{
+    .navbar .collapse .navbar-nav
+    {
+        margin: 1% 0 0 0;
+    }
+    .navbar .collapse .navbar-nav .nav-item .main
+    {
+        padding: 0 0 0 5%;
+    }
+    .navbar .collapse .navbar-nav .nav-item .same
+    {
+        padding: 0 0 0 5%;
+    }
+}
+/*=====================navbar end=====================*/
+
+
+/*=========================================home page start=========================================*/
+
+
+/*=========================================login page start=========================================*/
+
+.gradient-custom-2 {
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #ee7724, rgb(0, 153, 51));
+}
+
+@media (min-width: 768px) {
+    .gradient-form {
+        height: 100vh !important;
+    }
+}
+@media (min-width: 769px) {
+    .gradient-custom-2 {
+        border-top-right-radius: .3rem;
+        border-bottom-right-radius: .3rem;
+    }
+}
+
+/*=========================================login page end=========================================*/
+
+/*=====================banner start=====================*/
+
+.banner-bg
+{
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner-bg h1
+{
+    font-size: 35px;
+    font-weight: 800;
+    padding: 6em 0 .5rem 0;
+    color: rgb(204, 82, 0);
+}
+.banner-bg p
+{
+    font-size: 17px;
+    font-weight: 400;
+    padding: 0 0 .5em 0;
+}
+.banner-bg a
+{
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #0f5132;
+    border: 2px solid  #0f5132;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all linear .2s;
+}
+.banner-bg a:hover
+{
+    border: 2px solid rgb(204, 82, 0);
+    color: rgb(204, 82, 0);
+    background-color: transparent;
+}
+@media only screen and (max-width: 426px)
+{
+    .banner-bg h1
+    {
+        font-size: 23px;
+        padding: 5.3em 0 .5rem 0;
+    }
+    .banner-bg p
+    {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .banner-bg a
+    {
+        font-size: 14px;
+        font-weight: 500;
+        padding: 3px 7px;
+    }
+}
+@media only screen and (max-width: 320px)
+{
+    .banner-bg h1
+    {
+        font-size: 20px;
+    }
+    .banner-bg p
+    {
+        font-size: 13px;
+    }
+}
+/*=====================banner end=====================*/
+
+/*=====================kits start=====================*/
+.kits-bg h2
+{
+    color: rgb(204, 82, 0);
+    font-size: 35px;
+    font-weight: 700;
+}
+.kits-bg img
+{
+    width: 100%;
+    height: auto;
+}
+.kits-bg h3
+{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(204, 82, 0);
+}
+.kits-bg p
+{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(102, 102, 102);
+}
+.kits-bg a
+{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(204, 82, 0);
+    border: 2px solid rgb(204, 82, 0);
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: all linear .2s;
+}
+.kits-bg a:hover
+{
+    color: white;
+    background-color: #0f5132;
+    border: 2px solid #0f5132;
+}
+@media only screen and (max-width: 769px)
+{
+    .kits-bg
+    {
+        text-align: center;
+    }
+    .kits-bg h3
+    {
+        padding: .3em 0 0 0;
+    }
+}
+/*=====================kits end=====================*/
+
+/*=====================about start=====================*/
+
+.about-bg h2
+{
+    font-size: 35px;
+    font-weight: 800;
+    color: rgb(204, 82, 0);
+}
+.about-bg .img
+{
+    width: 100%;
+    height: 70vh;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.about-bg .img a
+{
+    position: absolute;
+    color: #DADADA;
+    border: 2px solid #DADADA;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 3px;
+    top: 60%;
+    left: 65%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+    transition: all linear .2s;
+}
+.about-bg .img a:hover
+{
+    background-color: #DADADA;
+    color: #141414;
+
+}
+@media only screen and (max-width: 1024px)
+{
+    .about-bg .img a
+    {
+        font-size: 15px;
+        top: 58%;
+        left: 66%;
+    }
+}
+@media only screen and (max-width: 769px)
+{
+    .about-bg .img a
+    {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 426px)
+{
+    .about-bg .img a
+    {
+        font-size: 10px;
+        top: 57%;
+        left: 69%;
+    }
+}
+@media only screen and (max-width: 376px)
+{
+    .about-bg .img a
+    {
+        top: 56%;
+        left: 72%;
+    }
+}
+@media only screen and (max-width: 376px)
+{
+    .about-bg .img a
+    {
+        top: 57%;
+        left: 70%;
+    }
+}
+
+/*=====================about end=====================*/
+
+
+/*=====================contact start=====================*/
+
+.contact-bg h2
+{
+    font-size: 35px;
+    font-weight: 800;
+    color: rgb(204, 82, 0);
+}
+.contact-bg form .lebal
+{
+    color: rgb(0, 153, 51);
+}
+
+/*=====================contact end=====================*/
+
+/*=====================footer start=====================*/
+
+.footer-bg
+{
+    background-color: #2c3034;
+    color: white;
+    padding: 5px 0;
+}
+.footer-bg .name_span
+{
+    font-size: 16px;
+    font-weight: 600;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.footer-bg .number_span
+{
+    font-size: 15px;
+    font-weight: 600;
+    background: -webkit-linear-gradient(rgb(0, 153, 51), rgb(204, 82, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*=====================footer end=====================*/
+
+/*=========================================home page end=========================================*/
+
+/*=========================================kits page start=========================================*/
+
+.kit-page-bg h4
+{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(204, 82, 0);
+}
+.kit-page-bg h2
+{
+    font-size: 35px;
+    font-weight: 800;
+    color: rgb(204, 82, 0);
+}
+.kit-page-bg img
+{
+    height: 50vh;
+}
+.kit-page-bg h5
+{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(204, 82, 0);
+}
+.kit-page-bg .card-text
+{
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+}
+.kit-page-bg .time_count
+{
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+}
+.kit-page-bg .group-dropdown :where(.group-list-dropdown span, .group-list-dropdown .sub-group-dropdown .sub-group-dropdown-list, ul li a)
+{
+    cursor: pointer;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+}
+.kit-page-bg .group-dropdown .group-list-dropdown .sub-group-dropdown
+{
+    display: none;
+}
+.kit-page-bg .group-dropdown .group-list-dropdown .sub-group-dropdown li ul
+{
+    display: none;
+}
+
+/*=========================================kits page end=========================================*/
+
+
+
+/*=========================================about page start=========================================*/
+
+.about-container h2
+{
+    color: rgb(204, 82, 0);
+    font-size: 35px;
+    font-weight: 800;
+}
+.about-container img
+{
+    width: 100%;
+    height: 80vh;
+    border-radius: 10px;
+}
+.about-container h4
+{
+    color: rgb(204, 82, 0);
+    font-size: 20px;
+    font-weight: 600;
+}
+.about-container p
+{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(102, 102, 102);
+}
+
+/*=========================================about page end=========================================*/
+
+/*================pagination================*/
+.pagination
+{
+    display: flex;
+    justify-content: center;
+}
+/*================pagination================*/
+
+.font-admin-date-comment
+{
+    font-size: 15px;
+    font-weight: 400;
+}
+.font-comment
+{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+/*=======================comment system=======================*/
+
+.comment-body p {
+    margin-bottom: .5rem;
+}
+@media only screen and (max-width: 426px)
+{
+    .img_div
+    {
+        text-align: center;
+        margin: 0 0 .5rem 0;
+    }
+}
+
+.main_code_content p
+{
+    color: #575656;
+}
+.main_code_content .time_code
+{
+    color: #575656;
+}
+.send_subject p
+{
+    text-align: center;
+}
+
+/*mian code show p*/
+.code
+{
+    padding: .5rem 1rem .1rem 1rem;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.category_btn
+{
+    padding: 0rem 1rem;
+    margin: .3rem 0 0 0;
+    background-color: transparent;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 5px;
+}

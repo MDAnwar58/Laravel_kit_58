@@ -1,0 +1,104 @@
+/*common css*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,400;1,600;1,700;1,900&display=swap');
+*
+{
+    font-family: 'Nunito';
+}
+a
+{
+    text-decoration: none;
+}
+li
+{
+    list-style: none;
+}
+/*common css*/
+
+/*=====================navbar start=====================*/
+.navbar-brand .span1
+{
+    font-weight: 600;
+    color: rgb(0, 153, 51);
+}
+.navbar-brand .span2
+{
+    font-weight: 600;
+    color: rgb(255, 133, 51);
+}
+.navbar .collapse .navbar-nav .active, .main
+{
+    background-image: linear-gradient(to bottom left, rgb(0, 153, 51, 0.7) , rgb(255, 133, 51));
+    border-radius: 5px;
+    color: white;
+}
+.navbar .collapse .navbar-nav .nav-item, .same
+{
+    transition: all linear .2s;
+}
+.navbar .collapse .navbar-nav .nav-item:hover .same
+{
+    background-image: linear-gradient(to bottom left, rgb(0, 153, 51, 0.7) , rgb(255, 133, 51));
+    border-radius: 5px;
+    color: white;
+}
+.navbar .collapse .navbar-nav .dropdown .dropdown-menu .dropdown-item:hover
+{
+    background-image: linear-gradient(to bottom left, rgb(0, 153, 51, 0.7) , rgb(255, 133, 51));
+}
+
+/*====================navbar end====================*/
+
+
+/*====================sidebar====================*/
+
+.sidebar-card ul li a
+{
+    padding: 5px 0 5px 15px;
+}
+.sidebar-card ul li .active
+{
+    background-color: #1a1e21;
+    color: white;
+}
+.sidebar-card ul li a:hover
+{
+    background-color: #1a1e21;
+    color: white;
+}
+
+/*====================sidebar====================*/
+
+/*for create modal*/
+.scroller
+{
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    scrollbar-color: rebeccapurple;
+}
+/*for create modal*/
+
+/*user pagination*/
+.user-pagination
+{
+    display: flex;
+    justify-content: center;
+}
+/*comment pagination*/
+.backend-main_code-pagination
+{
+    display: flex;
+    justify-content: center;
+}
+/*comment pagination*/
+.backend-comment-pagination
+{
+    display: flex;
+    justify-content: center;
+}
+/*contact pagination*/
+.backend-contact-pagination
+{
+    display: flex;
+    justify-content: center;
+}
